@@ -1,0 +1,11 @@
+{
+  "name": "exploreyourworld",
+  "description": "Website to host web information for all Explore Your World Apps",
+  "main": "index.html",
+  "authors": [
+    "Bobby White"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
