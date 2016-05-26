@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Explore Your World</title>
+    <link href="include/css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <!-- ***** START APPLICATION BODY ***** -->
+  <body ng-controller="AppController">
+
+    <!-- ***** START PAGE CONTENT ***** -->
+    <div class="page-wrapper">
+        <div ui-view></div>
+    </div>
+    <!-- ***** END PAGE CONTENT ***** -->
+
+    <!-- ***** START ANGULAR IMPORTS ***** -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- ***** END ANGULAR IMPORTS ***** -->
+
+    <!-- ***** START APP IMPORTS ***** -->
+    <script src="app/app.js"></script>
+    <script src="app/app.controller.js"></script>
+    <!-- ***** END APP IMPORTS ***** -->
+
+  </body>
+</html>
