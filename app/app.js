@@ -4,7 +4,7 @@
     angular
         .module('app', [
             'ui.router',
-            'tlg.welcome'
+            'eyw.welcome'
         ])
         .config(AppConfig)
         .run(AppRun);
@@ -18,7 +18,7 @@
     function AppConfig($stateProvider, $urlRouterProvider) {
         //Setup app states/routes
         $stateProvider
-            .state('tlg', {
+            .state('eyw', {
                 url: '',
                 abstract: true
             });

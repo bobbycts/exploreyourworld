@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('tlg.welcome')
+        .module('eyw.welcome')
         .controller('WelcomeController', WelcomeController);
 
 

@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('tlg.welcome', [])
-        .config('WelcomeConfig', WelcomeConfig);
+        .module('eyw.welcome', [])
+        .config(WelcomeConfig);
 
 
     /**
