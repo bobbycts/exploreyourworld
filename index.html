@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Explore Your World</title>
     <link href="include/css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- ***** MATERIAL DESIGN LITE IMPORTS ***** -->
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+    <script src="bower_components/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
 
   <!-- ***** START APPLICATION BODY ***** -->
   <body ng-controller="AppController">
+    <div ui-view></div>
 
     <!-- ***** START PAGE CONTENT ***** -->
-    <div class="page-wrapper">
+   <!--  <div class="page-wrapper">
         <div ui-view></div>
-    </div>
+    </div> -->
     <!-- ***** END PAGE CONTENT ***** -->
 
     <!-- ***** START ANGULAR IMPORTS ***** -->
@@ -25,6 +31,8 @@
     <!-- ***** START APP IMPORTS ***** -->
     <script src="app/app.js"></script>
     <script src="app/app.controller.js"></script>
+    <script src="app/welcome/welcome.module.js"></script>
+    <script src="app/welcome/welcome.controller.js"></script>
     <!-- ***** END APP IMPORTS ***** -->
 
   </body>

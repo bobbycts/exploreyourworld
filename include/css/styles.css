@@ -1,0 +1,9 @@
+.layout-transparent {
+    height: 200px;
+    background: url('../../include/images/wallpaper-city.jpg') center / cover;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
